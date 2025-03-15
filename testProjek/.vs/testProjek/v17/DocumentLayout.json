@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "D:\\pattern software\\testProjek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homecustomer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homecustomer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\homeadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\factory\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\factory\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\repository\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\homecustomer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homecustomer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homecustomer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homecustomer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homecustomer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\navbarcustomer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
@@ -56,10 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,89 +69,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "homeAdmin.aspx",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx",
-              "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx",
-              "RelativeToolTip": "testProjek\\View\\homeAdmin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T15:40:22.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "homeCustomer.aspx",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeCustomer.aspx",
-              "RelativeDocumentMoniker": "testProjek\\View\\homeCustomer.aspx",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeCustomer.aspx",
-              "RelativeToolTip": "testProjek\\View\\homeCustomer.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T15:34:19.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "loginPage.aspx",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx",
-              "RelativeDocumentMoniker": "testProjek\\View\\loginPage.aspx",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx",
-              "RelativeToolTip": "testProjek\\View\\loginPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T14:52:55.133Z",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "testProjek\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "testProjek\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:25:40.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "homeAdmin.aspx.cs",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.cs",
-              "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx.cs",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.cs",
-              "RelativeToolTip": "testProjek\\View\\homeAdmin.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:57:42.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "homeAdmin.aspx.designer.cs",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.designer.cs",
-              "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx.designer.cs",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.designer.cs",
-              "RelativeToolTip": "testProjek\\View\\homeAdmin.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:26:27.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "databaseSingleton.cs",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\databaseSingleton.cs",
-              "RelativeDocumentMoniker": "testProjek\\Repository\\databaseSingleton.cs",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Repository\\databaseSingleton.cs",
-              "RelativeToolTip": "testProjek\\Repository\\databaseSingleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:25:21.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserFactory.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Factory\\UserFactory.cs",
               "RelativeDocumentMoniker": "testProjek\\Factory\\UserFactory.cs",
@@ -164,32 +99,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "testProjek\\Repository\\UserRepository.cs",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "testProjek\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:25:40.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "loginPage.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\loginPage.aspx.cs",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx.cs",
               "RelativeToolTip": "testProjek\\View\\loginPage.aspx.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:52:57.966Z"
+              "WhenOpened": "2025-03-10T14:52:57.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "registerPage.aspx.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\registerPage.aspx.cs",
+              "RelativeDocumentMoniker": "testProjek\\View\\registerPage.aspx.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\registerPage.aspx.cs",
+              "RelativeToolTip": "testProjek\\View\\registerPage.aspx.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswBMAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:56:44.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "databaseSingleton.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\databaseSingleton.cs",
+              "RelativeDocumentMoniker": "testProjek\\Repository\\databaseSingleton.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Repository\\databaseSingleton.cs",
+              "RelativeToolTip": "testProjek\\Repository\\databaseSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:25:21.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "homeAdmin.aspx",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx",
+              "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx",
+              "RelativeToolTip": "testProjek\\View\\homeAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-10T15:40:22.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "homeCustomer.aspx",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeCustomer.aspx",
+              "RelativeDocumentMoniker": "testProjek\\View\\homeCustomer.aspx",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeCustomer.aspx",
+              "RelativeToolTip": "testProjek\\View\\homeCustomer.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-10T15:34:19.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "loginPage.aspx",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx",
+              "RelativeDocumentMoniker": "testProjek\\View\\loginPage.aspx",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx",
+              "RelativeToolTip": "testProjek\\View\\loginPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-10T14:52:55.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "homeAdmin.aspx.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.cs",
+              "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.cs",
+              "RelativeToolTip": "testProjek\\View\\homeAdmin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:57:42.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "homeAdmin.aspx.designer.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.designer.cs",
+              "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx.designer.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.designer.cs",
+              "RelativeToolTip": "testProjek\\View\\homeAdmin.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:26:27.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "homeCustomer.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeCustomer.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\homeCustomer.aspx.cs",
@@ -197,38 +205,33 @@
               "RelativeToolTip": "testProjek\\View\\homeCustomer.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:57:54.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:57:54.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "navbarCustomer.Master",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarCustomer.Master",
               "RelativeDocumentMoniker": "testProjek\\View\\navbarCustomer.Master",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarCustomer.Master",
               "RelativeToolTip": "testProjek\\View\\navbarCustomer.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T15:34:13.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T15:34:13.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "navbarAdmin.Master",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarAdmin.Master",
               "RelativeDocumentMoniker": "testProjek\\View\\navbarAdmin.Master",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarAdmin.Master",
               "RelativeToolTip": "testProjek\\View\\navbarAdmin.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-10T15:33:59.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T15:33:59.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Users.sql",
@@ -237,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "registerPage.aspx",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\registerPage.aspx",
               "RelativeDocumentMoniker": "testProjek\\View\\registerPage.aspx",
@@ -246,18 +249,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-03-10T15:16:56.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "registerPage.aspx.cs",
-              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\registerPage.aspx.cs",
-              "RelativeDocumentMoniker": "testProjek\\View\\registerPage.aspx.cs",
-              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\registerPage.aspx.cs",
-              "RelativeToolTip": "testProjek\\View\\registerPage.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:56:44.495Z"
             }
           ]
         }
