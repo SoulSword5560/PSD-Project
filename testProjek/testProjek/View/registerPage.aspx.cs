@@ -37,8 +37,9 @@ namespace testProjek.View
             string role = roleDDL.SelectedValue;
             string gender = genderDDL.SelectedValue;
             DateTime date = DateTime.Parse(dateTB.Text);
+            DateTime now = DateTime.Now;
 
-            if(!Regex.IsMatch(username, @"^[A-Za-z ]{5,30}$"))
+            if (!Regex.IsMatch(username, @"^[A-Za-z ]{5,30}$"))
             {
                 nameLbl.ForeColor = System.Drawing.Color.Red;
                 errorMsg.Text = "invalid data";
@@ -74,7 +75,12 @@ namespace testProjek.View
                 errorMsg.Text = "invalid data";
                 return;
             }
-
+            if(date > now)
+            {
+                dateLbl.ForeColor = System.Drawing.Color.Red;
+                errorMsg.Text = "invalid data";
+                return;
+            }
             UserRepository.insertNewUser(username, password, email, gender, role, date);
             Response.Redirect("~/View/loginPage.aspx");
         }
