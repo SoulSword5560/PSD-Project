@@ -10,7 +10,6 @@
     <Property Name="CardDesc" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="CardType" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="isFoil" Type="Binary" MaxLength="1" FixedLength="true" Nullable="false" />
-    <Property Name="CartsCartID" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Carts" Relationship="Self.FK_Carts_Cards" FromRole="Cards" ToRole="Carts" />
     <NavigationProperty Name="TransactionDetails" Relationship="Self.FK_TransactionDetail_Cards" FromRole="Cards" ToRole="TransactionDetail" />
   </EntityType>

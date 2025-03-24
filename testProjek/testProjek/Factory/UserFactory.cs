@@ -9,7 +9,7 @@ namespace testProjek.Factory
 {
     public class UserFactory
     {
-        public static User createNewUser(string username, string password, string email,string gender, string role, DateTime date)
+        public  User createNewUser(string username, string password, string email,string gender, string role, DateTime date)
         {
             User user = new User();
             user.UserName = username;

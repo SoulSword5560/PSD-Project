@@ -10,7 +10,6 @@
     <Property Name="CardDesc" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="CardType" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="isFoil" Type="binary" MaxLength="1" Nullable="false" />
-    <Property Name="CartsCartID" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Carts">
     <Key>

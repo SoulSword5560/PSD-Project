@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using testProjek.handler;
 using testProjek.Model;
 using testProjek.Repository;
 
@@ -12,6 +13,7 @@ namespace testProjek.View
 {
     public partial class loginPage : System.Web.UI.Page
     {
+        userHandler userHandler = new userHandler();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["user"] != null || Request.Cookies["user"] != null)
@@ -37,7 +39,7 @@ namespace testProjek.View
                 errorMsg.Text = "please fill the data";
                 return;
             }
-            User user = UserRepository.getUser(username, password);
+            User user = userHandler.getUser(username, password);
             if (user == null)
             {
                 errorMsg.Text = "invalid account";

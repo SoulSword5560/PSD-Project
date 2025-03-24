@@ -1,20 +1,56 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="navbarAdmin.master.cs" Inherits="testProjek.View.navbarAdmin" %>
-
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
-    <title></title>
+    <title>Admin Navbar</title>
+    <style>
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        #welcome {
+            color: white;
+        }
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-                <h1>CUMA ADMIN</h1>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
+        <nav>
+            <ul>
+                <li><asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlManageCard" runat="server" NavigateUrl="~/View/ManageCard.aspx">Manage Card</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlViewTransaction" runat="server" NavigateUrl="~/ViewTransaction.aspx">View Transaction</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlTransactionReport" runat="server" NavigateUrl="~/TransactionReport.aspx">Transaction Report</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlOrderQueue" runat="server" NavigateUrl="~/OrderQueue.aspx">Order Queue</asp:HyperLink></li>
+                <asp:Button ID="logout" runat="server" Text="Logout" OnClick="logout_Click" />
+            </ul>
+            <asp:Label ID="welcome" runat="server" Text=""></asp:Label>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
