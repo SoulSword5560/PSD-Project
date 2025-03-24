@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using testProjek.Factory;
+using testProjek.handler;
 using testProjek.Model;
 using testProjek.Repository;
 
@@ -13,6 +14,7 @@ namespace testProjek.View
 {
     public partial class registerPage : System.Web.UI.Page
     {
+            userHandler userHandler = new userHandler();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["user"] != null || Request.Cookies["user"] != null)
@@ -81,7 +83,7 @@ namespace testProjek.View
                 errorMsg.Text = "invalid data";
                 return;
             }
-            UserRepository.insertNewUser(username, password, email, gender, role, date);
+            userHandler.registerUser(username, password, email, gender, role, date);
             Response.Redirect("~/View/loginPage.aspx");
         }
     }

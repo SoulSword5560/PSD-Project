@@ -10,7 +10,6 @@
           <ScalarProperty Name="CardDesc" ColumnName="CardDesc" />
           <ScalarProperty Name="CardType" ColumnName="CardType" />
           <ScalarProperty Name="isFoil" ColumnName="isFoil" />
-          <ScalarProperty Name="CartsCartID" ColumnName="CartsCartID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

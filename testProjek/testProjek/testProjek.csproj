@@ -92,11 +92,15 @@
     <Content Include="View\homeAdmin.aspx" />
     <Content Include="View\homeCustomer.aspx" />
     <Content Include="View\loginPage.aspx" />
+    <Content Include="View\ManageCard.aspx" />
     <Content Include="View\registerPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\cardFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
+    <Compile Include="handler\cardHandler.cs" />
+    <Compile Include="handler\userHandler.cs" />
     <Compile Include="Model\Card.cs">
       <DependentUpon>dbModel.tt</DependentUpon>
     </Compile>
@@ -128,6 +132,7 @@
       <DependentUpon>dbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\cardRepository.cs" />
     <Compile Include="Repository\databaseSingleton.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="View\homeAdmin.aspx.cs">
@@ -150,6 +155,13 @@
     </Compile>
     <Compile Include="View\loginPage.aspx.designer.cs">
       <DependentUpon>loginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\ManageCard.aspx.cs">
+      <DependentUpon>ManageCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\ManageCard.aspx.designer.cs">
+      <DependentUpon>ManageCard.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\navbarAdmin.Master.cs">
       <DependentUpon>navbarAdmin.Master</DependentUpon>
