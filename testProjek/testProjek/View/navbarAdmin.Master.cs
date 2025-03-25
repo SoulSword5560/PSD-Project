@@ -8,6 +8,10 @@ namespace testProjek.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["user"] == null && Request.Cookies["user"] == null)
+            {
+                Response.Redirect("loginPage.aspx");
+            }
             if (Request.Cookies["user"] != null && Request.Cookies["user"]["username"] != null)
             {
                 welcome.Text ="Hello " + Request.Cookies["user"]["username"];
@@ -33,6 +37,25 @@ namespace testProjek.View
             }
 
             Response.Redirect("~/View/loginPage.aspx");
+        }
+
+        protected void searchBar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Search_Click(object sender, EventArgs e)
+        {
+            string query = searchBar.Text;
+
+            if (!string.IsNullOrEmpty(query))
+            {
+                Response.Redirect($"~/View/manageCard.aspx?query={Server.UrlEncode(query)}");
+            }
+            else
+            {
+                Response.Redirect("~/View/manageCard.aspx");
+            }
         }
     }
 }

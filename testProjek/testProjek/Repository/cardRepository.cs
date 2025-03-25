@@ -41,5 +41,20 @@ namespace testProjek.Repository
             old.isFoil = card.isFoil;
             db.SaveChanges();
         }
+
+        public void createCard(Card card)
+        {
+            db.Cards.Add(card);
+            db.SaveChanges();
+        }
+
+        public List<Card> getCardByName(string cardName)
+        {
+            return db.Cards
+                     .Where(c => c.CardName.Contains(cardName))
+                     .ToList();
+        }
+
+
     }
 }

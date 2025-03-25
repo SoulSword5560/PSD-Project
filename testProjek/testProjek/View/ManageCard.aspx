@@ -59,5 +59,5 @@
         </asp:DropDownList>
     </div>
     <asp:Button ID="updateBTN" runat="server" Text="update" OnClick="updateBTN_Click" />
-    <asp:Button ID="insertBTN" runat="server" Text="insert" />
+    <asp:Button ID="insertBTN" runat="server" Text="insert" OnClick="insertBTN_Click" />
 </asp:Content>

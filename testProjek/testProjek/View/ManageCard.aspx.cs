@@ -16,7 +16,17 @@ namespace testProjek.View
         {
             if (!IsPostBack)
             {
-                refreshGrid();
+                string query = Request.QueryString["query"];
+                if (!string.IsNullOrEmpty(query))
+                {
+                    List<Card> list = cardHandler.getCardByName(query);
+                    gv.DataSource = list;
+                    gv.DataBind();
+                }
+                else
+                {
+                    refreshGrid();
+                }
             } 
         }
         protected string ConvertIsFoil(object isFoil)
@@ -66,6 +76,11 @@ namespace testProjek.View
             Card card = cardHandler.createCard(name,price, type, desc, isFoil);
             cardHandler.updateCard(id,card);
             refreshGrid();
+        }
+
+        protected void insertBTN_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/View/insert.aspx");
         }
     }
 }
