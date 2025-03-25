@@ -91,6 +91,7 @@
     </Content>
     <Content Include="View\homeAdmin.aspx" />
     <Content Include="View\homeCustomer.aspx" />
+    <Content Include="View\insert.aspx" />
     <Content Include="View\loginPage.aspx" />
     <Content Include="View\ManageCard.aspx" />
     <Content Include="View\registerPage.aspx" />
@@ -148,6 +149,13 @@
     </Compile>
     <Compile Include="View\homeCustomer.aspx.designer.cs">
       <DependentUpon>homeCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\insert.aspx.cs">
+      <DependentUpon>insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\insert.aspx.designer.cs">
+      <DependentUpon>insert.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\loginPage.aspx.cs">
       <DependentUpon>loginPage.aspx</DependentUpon>

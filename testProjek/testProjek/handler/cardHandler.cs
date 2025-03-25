@@ -40,5 +40,15 @@ namespace testProjek.handler
         {
             cardRepository.updateCard(id, card);
         }
+        
+        public void createCard(Card card)
+        {
+            cardRepository.createCard(card);
+        }
+
+        public List<Card> getCardByName(string cardName)
+        {
+            return cardRepository.getCardByName(cardName);
+        }
     }
 }
