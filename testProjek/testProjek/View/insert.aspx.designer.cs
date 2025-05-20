@@ -105,6 +105,15 @@ namespace testProjek.View
         protected global::System.Web.UI.WebControls.DropDownList foilDDL;
 
         /// <summary>
+        /// errorMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label errorMsg;
+
+        /// <summary>
         /// insertBtn control.
         /// </summary>
         /// <remarks>

@@ -30,6 +30,7 @@
         <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
     </asp:DropDownList>
 </div>
+    <asp:Label ID="errorMsg" runat="server" Text=""></asp:Label>
     <asp:Button ID="insertBtn" runat="server" Text="Insert" OnClick="insertBtn_Click"/>
     <asp:Button ID="backBtn" runat="server" Text="Back" OnClick="backBtn_Click" />
 </asp:Content>

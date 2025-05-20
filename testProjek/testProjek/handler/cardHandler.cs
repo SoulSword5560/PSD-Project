@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Web;
+using System.Xml.Linq;
 using testProjek.Factory;
 using testProjek.Model;
 using testProjek.Repository;
@@ -31,20 +34,21 @@ namespace testProjek.handler
             return cardRepository.getCard(id);
         }
 
-        public Card createCard(string name, decimal price, string type, string desc, int foil) 
+        public void createCard(string name, decimal price, string type, string desc, int foil) 
         {
-            return cardFactory.createCard(name, price, type, desc, foil);
+            
+            Card card =  cardFactory.createCard(name, price, type, desc, foil);
+            cardRepository.createCard(card);
         }
 
-        public void updateCard(int id, Card card)
+
+
+        public void updateCard(int id,string name,decimal price, string type, string desc,int foil)
         {
+            Card card = cardFactory.createCard(name, price, type, desc, foil);
             cardRepository.updateCard(id, card);
         }
         
-        public void createCard(Card card)
-        {
-            cardRepository.createCard(card);
-        }
 
         public List<Card> getCardByName(string cardName)
         {
