@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using testProjek.Controller;
 using testProjek.handler;
 using testProjek.Model;
 
@@ -11,7 +12,7 @@ namespace testProjek.View
 {
     public partial class insert : System.Web.UI.Page
     {
-        cardHandler cardHandler = new cardHandler();
+        cardController cardController = new cardController();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -24,8 +25,7 @@ namespace testProjek.View
             string type = typeTB.Text;
             string desc = descTB.Text;
             int isFoil = int.Parse(foilDDL.SelectedValue);
-            Card card = cardHandler.createCard(name, price, type, desc, isFoil);
-            cardHandler.createCard(card);
+            errorMsg.Text = cardController.cardValidation(name,price,type,desc,isFoil);
             Response.Redirect("~/View/ManageCard.aspx");
         }
 

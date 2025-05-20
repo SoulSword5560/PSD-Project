@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using testProjek.Controller;
 using testProjek.handler;
 using testProjek.Model;
 using testProjek.Repository;
@@ -13,20 +14,10 @@ namespace testProjek.View
 {
     public partial class loginPage : System.Web.UI.Page
     {
-        userHandler userHandler = new userHandler();
+        userController userController = new userController();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["user"] != null || Request.Cookies["user"] != null)
-            {
-                if (Session["role"]?.ToString() == "Customer" || Request.Cookies["user"]["role"] == "Customer")
-                {
-                    Response.Redirect("homeCustomer.aspx");
-                }
-                else
-                {
-                    Response.Redirect("homeAdmin.aspx");
-                }
-            }
+            userController.RedirectToUserHome(Session, Request, Response);
         }
 
         protected void login_Click(object sender, EventArgs e)
@@ -34,12 +25,8 @@ namespace testProjek.View
             string username = nameTB.Text;
             string password = passTB.Text;
 
-            if (username == " " && password == " ")
-            {
-                errorMsg.Text = "please fill the data";
-                return;
-            }
-            User user = userHandler.getUser(username, password);
+           
+            User user = userController.validateLogin(username,password);
             if (user == null)
             {
                 errorMsg.Text = "invalid account";

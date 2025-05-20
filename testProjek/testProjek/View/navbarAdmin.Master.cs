@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Web;
 using System.Web.UI;
+using testProjek.Controller;
 
 namespace testProjek.View
 {
     public partial class navbarAdmin : System.Web.UI.MasterPage
     {
+        userController Controller = new userController();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["user"] == null && Request.Cookies["user"] == null)
-            {
-                Response.Redirect("loginPage.aspx");
-            }
+            
+            Controller.RedirectIfNotAuthenticated(Session, Request, Response);
             if (Request.Cookies["user"] != null && Request.Cookies["user"]["username"] != null)
             {
                 welcome.Text ="Hello " + Request.Cookies["user"]["username"];

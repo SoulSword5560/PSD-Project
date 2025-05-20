@@ -64,9 +64,9 @@
             <ul>
                 <li><asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/View/homeAdmin.aspx">Home</asp:HyperLink></li>
                 <li><asp:HyperLink ID="hlManageCard" runat="server" NavigateUrl="~/View/ManageCard.aspx">Manage Card</asp:HyperLink></li>
-                <li><asp:HyperLink ID="hlViewTransaction" runat="server" NavigateUrl="~/ViewTransaction.aspx">View Transaction</asp:HyperLink></li>
-                <li><asp:HyperLink ID="hlTransactionReport" runat="server" NavigateUrl="~/TransactionReport.aspx">Transaction Report</asp:HyperLink></li>
-                <li><asp:HyperLink ID="hlOrderQueue" runat="server" NavigateUrl="~/OrderQueue.aspx">Order Queue</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlViewTransaction" runat="server" NavigateUrl="~/View/handleTransaction.aspx">View Transaction</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlTransactionReport" runat="server" NavigateUrl="~/View/transactionReport.aspx">Transaction Report</asp:HyperLink></li>
+                <li><asp:HyperLink ID="hlOrderQueue" runat="server" NavigateUrl="~/View/handleTransaction.aspx">Order Queue</asp:HyperLink></li>
                 <asp:Button ID="logout" runat="server" Text="Logout" OnClick="logout_Click" />
             </ul>
 

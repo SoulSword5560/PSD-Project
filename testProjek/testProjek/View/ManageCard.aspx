@@ -58,6 +58,7 @@
             <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
         </asp:DropDownList>
     </div>
+     <asp:Label ID="errorMsg" runat="server" Text=""></asp:Label>
     <asp:Button ID="updateBTN" runat="server" Text="update" OnClick="updateBTN_Click" />
     <asp:Button ID="insertBTN" runat="server" Text="insert" OnClick="insertBTN_Click" />
 </asp:Content>
