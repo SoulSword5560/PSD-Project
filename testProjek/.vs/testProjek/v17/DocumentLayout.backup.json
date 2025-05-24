@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\pattern software\\testProjek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\managecard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -106,12 +106,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 15,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -121,8 +117,7 @@
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Dataset\\DataSet1.xsd",
               "RelativeToolTip": "testProjek\\Dataset\\DataSet1.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-05-20T04:49:19.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T04:49:19.42Z"
             },
             {
               "$type": "Document",
@@ -134,8 +129,7 @@
               "RelativeToolTip": "testProjek\\Repository\\transactionReportRepo.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:34:36.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T08:34:36.684Z"
             },
             {
               "$type": "Document",
@@ -147,8 +141,7 @@
               "RelativeToolTip": "testProjek\\Repository\\transactionHeaderRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:34:03.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T08:34:03.098Z"
             },
             {
               "$type": "Document",
@@ -160,8 +153,7 @@
               "RelativeToolTip": "testProjek\\View\\transactionReport.aspx.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwBAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:32:47.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T06:32:47.483Z"
             },
             {
               "$type": "Document",
@@ -173,8 +165,7 @@
               "RelativeToolTip": "testProjek\\View\\transactionReport.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-20T06:31:27.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T06:31:27.364Z"
             },
             {
               "$type": "Document",
@@ -185,8 +176,7 @@
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Report\\CrystalReport1.rpt",
               "RelativeToolTip": "testProjek\\Report\\CrystalReport1.rpt",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO4SURBVEhLtZRdaBxlFIafmdmf2dlkd3aS7JomMU2xNqFJ/akpGo1XRSgVWqKWKlpEzZ0WxB8Ei2hAaUGqpWqhKEVKKUV7IQVrIJrYVDCGVjFoAqWYYLU1P90k7G6yuzPf8WKT2Gy25kZfOMzwMuf5zhzOd\u002BD/kIhoxd7jTz77Qsiyyor9YuXzbvb4sSMHi/2bqqf/pz/zrqtWi\u002BFLV71DRz\u002B7WJy/KL3YADB0vWTomo6maYBGOBzUtrRuvvPVfQeOF\u002BdzM3ApiQiCIAoQocwKUOVE6Hh01xOlKl8FLAXgYiiFiEIpIWQGqIhaVMejWtu9rZte2Xfg2I2Z/wqWQnEoVXj\u002B8y6k0vOkM/NoIlTFyvSdOx/Zc2NuSbCIoFThtwstUCgR/spPMJIewVuoOBoJEY2EcOwwkXJz2YSVBheagChBiaAEcl6OT6dPsGfoKc5N9qNUwV88vFj63g9Hvtzx\u002BuDbDzzf\u002B5h965Z7sp7uQwofe1KAZ9w5\u002BrLnKdfLmM3P0vnLM/RN9eF5Hp5SeEoVc9FOnhnYFk9UPz2ToeP0d8mJXHa\u002BalODaexor2V9bTk5laM3ew5D1xFX8fKPL/L73BWq/HEO33aEtlgbmqZxdWKGlg21Sx0w6tZtvOKJ71vTyPU82BJpCFnhhv7hrH7q61GGfrvKr4mvSBlJKnwxLN2ke6ybZCpJei5Nz3g390fbiZsJ0nNZjnxw8K2ligGaWlp5bu\u002BbgVAotKZpfe0Pc26w8vT381z64zq5NWcJ3NdPRcIhGDL55kQPybEkpITGqmbe2/0RjTUbSM5mllWsAwwPDfJS5/bcx4e7Rv267jY3hNndFiRRWYE\u002Bto3UQCvX89NMuOPkJnMwLjSazbzz0CHKNadkj5dNxcWBPubnU8QiYWor/dxV78OwHPyjD\u002BP9fDcaGpIWmpwWXtvehWM7RCJhDG3lcK10AJ/PwLJMaio0dF\u002BAgFmNe34XuQsbaXJa6Op4n/pEAxWOTcgMokqNW7GxKEPXyLsgmo5uhrEr46y9vIc3tu6n0nZwYlGCgSAiGiW4pcFKKTJzLhfGPHwBk7htsW5NhK2b66i/pY5KJ4ZpmigRPKVQq/WYhd0wMeNyalCYcuM0r42yeX2QrS0\u002B2m83sCyLQDCALFx5JQsbr0hL9/vdo2c0066rs5yai9Ou7fgNjZglRIN5au0sDQmTUMBY2McrNXz5Gnc01S0Vugzs2HbCjlidfr9eJgK6rikgm8rksr3dX8jU5LUlUCl9fvKT/cXef66/AS0btkM6G82QAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-05-20T06:25:58.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T06:25:58.162Z"
             },
             {
               "$type": "Document",
@@ -269,8 +259,7 @@
               "RelativeToolTip": "testProjek\\View\\ManageCard.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:17:24.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:17:24.664Z"
             },
             {
               "$type": "Document",
@@ -280,7 +269,6 @@
               "RelativeDocumentMoniker": "testProjek\\View\\navbarAdmin.Master",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarAdmin.Master",
               "RelativeToolTip": "testProjek\\View\\navbarAdmin.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-03-25T05:47:58.679Z",
               "EditorCaption": ""

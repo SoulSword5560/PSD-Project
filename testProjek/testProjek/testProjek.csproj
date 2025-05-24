@@ -106,6 +106,7 @@
   <ItemGroup>
     <Compile Include="Controller\cardController.cs" />
     <Compile Include="Controller\transactionHeaderController.cs" />
+    <Compile Include="Controller\transactionReportController.cs" />
     <Compile Include="Controller\userController.cs" />
     <Compile Include="Dataset\DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -116,6 +117,7 @@
     <Compile Include="Factory\UserFactory.cs" />
     <Compile Include="handler\cardHandler.cs" />
     <Compile Include="handler\transactionHeaderHandler.cs" />
+    <Compile Include="handler\transactionReportHandler.cs" />
     <Compile Include="handler\userHandler.cs" />
     <Compile Include="Model\Card.cs">
       <DependentUpon>dbModel.tt</DependentUpon>
