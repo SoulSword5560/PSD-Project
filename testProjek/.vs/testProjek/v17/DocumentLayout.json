@@ -3,48 +3,64 @@
   "WorkspaceRootPath": "D:\\pattern software\\testProjek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\report\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\report\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\managecard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\managecard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\navbaradmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\navbaradmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\transactionreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\transactionreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\handletransaction.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\handletransaction.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\controller\\transactionreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\controller\\transactionreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\repository\\transactionheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\repository\\transactionheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\dataset\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\dataset\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\handler\\transactionreporthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\handler\\transactionreporthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\repository\\transactionreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\repository\\transactionreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\factory\\cardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\factory\\cardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\dataset\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\dataset\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\navbaradmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\navbaradmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\handletransaction.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\handletransaction.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\report\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\report\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|d:\\pattern software\\testprojek\\testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\managecard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\managecard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\managecard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\transactionreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\homeadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\insert.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\factory\\cardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\factory\\cardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|D:\\pattern software\\testProjek\\testprojek\\view\\insert.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E38962E8-167E-43C2-B792-08518F6F0229}|testProjek\\testProjek.csproj|solutionrelative:testprojek\\view\\insert.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -106,15 +118,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "transactionReportController.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Controller\\transactionReportController.cs",
+              "RelativeDocumentMoniker": "testProjek\\Controller\\transactionReportController.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Controller\\transactionReportController.cs",
+              "RelativeToolTip": "testProjek\\Controller\\transactionReportController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:24:04.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "transactionReportHandler.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\handler\\transactionReportHandler.cs",
+              "RelativeDocumentMoniker": "testProjek\\handler\\transactionReportHandler.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\handler\\transactionReportHandler.cs",
+              "RelativeToolTip": "testProjek\\handler\\transactionReportHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:21:31.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "handleTransaction.aspx.cs",
+              "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\handleTransaction.aspx.cs",
+              "RelativeDocumentMoniker": "testProjek\\View\\handleTransaction.aspx.cs",
+              "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\handleTransaction.aspx.cs",
+              "RelativeToolTip": "testProjek\\View\\handleTransaction.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:19:26.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DataSet1.xsd",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Dataset\\DataSet1.xsd",
               "RelativeDocumentMoniker": "testProjek\\Dataset\\DataSet1.xsd",
@@ -126,59 +173,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "transactionReportRepo.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\transactionReportRepo.cs",
               "RelativeDocumentMoniker": "testProjek\\Repository\\transactionReportRepo.cs",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Repository\\transactionReportRepo.cs",
               "RelativeToolTip": "testProjek\\Repository\\transactionReportRepo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:34:36.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "transactionHeaderRepository.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\transactionHeaderRepository.cs",
               "RelativeDocumentMoniker": "testProjek\\Repository\\transactionHeaderRepository.cs",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Repository\\transactionHeaderRepository.cs",
               "RelativeToolTip": "testProjek\\Repository\\transactionHeaderRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:34:03.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "transactionReport.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\transactionReport.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\transactionReport.aspx.cs",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\transactionReport.aspx.cs",
               "RelativeToolTip": "testProjek\\View\\transactionReport.aspx.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T06:32:47.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "transactionReport.aspx",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\transactionReport.aspx",
               "RelativeDocumentMoniker": "testProjek\\View\\transactionReport.aspx",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\View\\transactionReport.aspx",
               "RelativeToolTip": "testProjek\\View\\transactionReport.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-05-20T06:31:27.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "CrystalReport1.rpt",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Report\\CrystalReport1.rpt",
               "RelativeDocumentMoniker": "testProjek\\Report\\CrystalReport1.rpt",
@@ -190,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Users.sql",
@@ -199,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "dbo.TransactionDetail.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionDetail.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionDetail.sql",
@@ -208,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "handleTransaction.aspx",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\handleTransaction.aspx",
               "RelativeDocumentMoniker": "testProjek\\View\\handleTransaction.aspx",
@@ -216,11 +262,12 @@
               "RelativeToolTip": "testProjek\\View\\handleTransaction.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-20T06:13:14.047Z"
+              "WhenOpened": "2025-05-20T06:13:14.047Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "dbo.Cards.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Cards.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Cards.sql",
@@ -229,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "dbo.TransactionHeader.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionHeader.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__PATTERN_SOFTWARE_TESTPROJEK_TESTPROJEK_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionHeader.sql",
@@ -238,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "dbModel.edmx [Diagram1]",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Model\\dbModel.edmx",
               "RelativeDocumentMoniker": "testProjek\\Model\\dbModel.edmx",
@@ -249,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "navbarAdmin.Master.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarAdmin.Master.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\navbarAdmin.Master.cs",
@@ -261,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "ManageCard.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\ManageCard.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\ManageCard.aspx.cs",
@@ -269,12 +316,11 @@
               "RelativeToolTip": "testProjek\\View\\ManageCard.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:17:24.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:17:24.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "navbarAdmin.Master",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\navbarAdmin.Master",
               "RelativeDocumentMoniker": "testProjek\\View\\navbarAdmin.Master",
@@ -287,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "ManageCard.aspx",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\ManageCard.aspx",
               "RelativeDocumentMoniker": "testProjek\\View\\ManageCard.aspx",
@@ -300,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "loginPage.aspx",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx",
               "RelativeDocumentMoniker": "testProjek\\View\\loginPage.aspx",
@@ -311,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "homeAdmin.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\homeAdmin.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\homeAdmin.aspx.cs",
@@ -323,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "cardHandler.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\handler\\cardHandler.cs",
               "RelativeDocumentMoniker": "testProjek\\handler\\cardHandler.cs",
@@ -335,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "cardRepository.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Repository\\cardRepository.cs",
               "RelativeDocumentMoniker": "testProjek\\Repository\\cardRepository.cs",
@@ -347,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "insert.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\insert.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\insert.aspx.cs",
@@ -359,19 +405,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "cardFactory.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\Factory\\cardFactory.cs",
               "RelativeDocumentMoniker": "testProjek\\Factory\\cardFactory.cs",
               "ToolTip": "D:\\pattern software\\testProjek\\testProjek\\Factory\\cardFactory.cs",
               "RelativeToolTip": "testProjek\\Factory\\cardFactory.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:01:58.856Z"
+              "WhenOpened": "2025-03-24T09:01:58.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "insert.aspx",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\insert.aspx",
               "RelativeDocumentMoniker": "testProjek\\View\\insert.aspx",
@@ -382,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "userHandler.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\handler\\userHandler.cs",
               "RelativeDocumentMoniker": "testProjek\\handler\\userHandler.cs",
@@ -394,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "loginPage.aspx.cs",
               "DocumentMoniker": "D:\\pattern software\\testProjek\\testProjek\\View\\loginPage.aspx.cs",
               "RelativeDocumentMoniker": "testProjek\\View\\loginPage.aspx.cs",
