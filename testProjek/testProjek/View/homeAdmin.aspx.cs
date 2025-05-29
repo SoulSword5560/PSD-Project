@@ -16,15 +16,15 @@ namespace testProjek.View
             Controller.RedirectIfNotAuthenticated(Session, Request, Response);
             if (Request.Cookies["user"] != null && Request.Cookies["user"]["username"] != null)
             {
-                homeTXT.Text = "WELLCOME " + Request.Cookies["user"]["username"];
+                homeTXT.Text = "WELCOME " + Request.Cookies["user"]["username"];
             }
             else if (Session["user"] != null)
             {
-                homeTXT.Text = "WELLCOME " + Session["user"].ToString();
+                homeTXT.Text = "WELCOME " + Session["user"].ToString();
             }
             else
             {
-                homeTXT.Text = "WELLCOME " + "Guest";
+                homeTXT.Text = "WELCOME " + "Guest";
             }
         }
     }

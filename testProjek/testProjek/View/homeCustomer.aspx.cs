@@ -14,6 +14,18 @@ namespace testProjek.View
         protected void Page_Load(object sender, EventArgs e)
         {
             Controller.RedirectIfNotAuthenticated(Session, Request, Response);
+            if (Request.Cookies["user"] != null && Request.Cookies["user"]["username"] != null)
+            {
+                homeTXT.Text = "WELCOME " + Request.Cookies["user"]["username"];
+            }
+            else if (Session["user"] != null)
+            {
+                homeTXT.Text = "WELCOME " + Session["user"].ToString();
+            }
+            else
+            {
+                homeTXT.Text = "WELCOME " + "Guest";
+            }
         }
     }
 }

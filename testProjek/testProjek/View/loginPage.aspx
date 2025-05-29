@@ -25,7 +25,7 @@
             <br />
             <asp:CheckBox ID="remember" runat="server" Text="remember me" />
             <br />
-            <asp:Button ID="login" runat="server" Text="Button" OnClick="login_Click" />
+            <asp:Button ID="login" runat="server" Text="Login" OnClick="login_Click" />
         </div>
     </form>
 </body>

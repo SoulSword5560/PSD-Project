@@ -68,6 +68,7 @@
                 <li><asp:HyperLink ID="hlTransactionReport" runat="server" NavigateUrl="~/View/transactionReport.aspx">Transaction Report</asp:HyperLink></li>
                 <li><asp:HyperLink ID="hlOrderQueue" runat="server" NavigateUrl="~/View/handleTransaction.aspx">Order Queue</asp:HyperLink></li>
                 <asp:Button ID="logout" runat="server" Text="Logout" OnClick="logout_Click" />
+                <li><asp:HyperLink ID="hlProfile" runat="server" NavigateUrl="~/View/profile.aspx">Profile</asp:HyperLink></li>
             </ul>
 
             <div style="display: flex; align-items: center;">
