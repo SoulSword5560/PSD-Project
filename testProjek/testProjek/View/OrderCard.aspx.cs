@@ -12,6 +12,7 @@ namespace testProjek.View
 	public partial class OrderCard : System.Web.UI.Page
 	{
         cardController cardController = new cardController();
+        cartController cartController = new cartController();
 		protected void Page_Load(object sender, EventArgs e)
 		{
             if (!IsPostBack)
@@ -20,8 +21,8 @@ namespace testProjek.View
                 if (!string.IsNullOrEmpty(query))
                 {
                     List<Card> list = cardController.getCardByName(query);
-                    ListBox1.DataSource = list;
-                    ListBox1.DataBind();
+                    gv.DataSource = list;
+                    gv.DataBind();
                 }
                 else
                 {
@@ -33,8 +34,8 @@ namespace testProjek.View
         public void refreshGrid()
         {
             List<Card> list = cardController.getCards();
-            ListBox1.DataSource = list;
-            ListBox1.DataBind();
+            gv.DataSource = list;
+            gv.DataBind();
         }
 
         protected string ConvertIsFoil(object isFoil)
@@ -45,9 +46,29 @@ namespace testProjek.View
             }
             return "Unknown";
         }
-        protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+
+        protected void gv_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+        protected void gv_command(Object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandArgument != null)
+            {
+                int index = Convert.ToInt32(e.CommandArgument);
+                GridViewRow row = gv.Rows[index];
+                if (e.CommandName == "Buy")
+                {
+                    Response.Redirect("~/View/BuyCard.aspx");
+                }
+                else if(e.CommandName == "AddToCart")
+                {
+                    int id = Convert.ToInt32(row.Cells[0].Text);
+                    string username = Session["user"].ToString();
+                    cartController.addNewCart(id, username);
+                    ClientScript.RegisterStartupScript(this.GetType(), "popup", $"alert('Added to cart.');", true);
+                }
+            }
         }
     }
 }

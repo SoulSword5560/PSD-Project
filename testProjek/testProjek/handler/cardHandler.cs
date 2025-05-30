@@ -22,7 +22,7 @@ namespace testProjek.handler
 
         public void deleteCard(int id) 
         {
-            if(id == null)
+            if(id == 0)
             {
                 return;
             }

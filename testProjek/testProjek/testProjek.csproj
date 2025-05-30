@@ -96,6 +96,8 @@
       <DependentUpon>dbModel.edmx</DependentUpon>
       <LastGenOutput>dbModel.cs</LastGenOutput>
     </Content>
+    <Content Include="View\AddNewCart.aspx" />
+    <Content Include="View\BuyCard.aspx" />
     <Content Include="View\handleTransaction.aspx" />
     <Content Include="View\homeAdmin.aspx" />
     <Content Include="View\homeCustomer.aspx" />
@@ -103,12 +105,14 @@
     <Content Include="View\loginPage.aspx" />
     <Content Include="View\ManageCard.aspx" />
     <Content Include="View\OrderCard.aspx" />
+    <Content Include="View\Profile.aspx" />
     <Content Include="View\registerPage.aspx" />
     <Content Include="View\transactionReport.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\cardController.cs" />
+    <Compile Include="Controller\cartController.cs" />
     <Compile Include="Controller\transactionHeaderController.cs" />
     <Compile Include="Controller\transactionReportController.cs" />
     <Compile Include="Controller\userController.cs" />
@@ -118,8 +122,10 @@
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Factory\cardFactory.cs" />
+    <Compile Include="Factory\cartFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
     <Compile Include="handler\cardHandler.cs" />
+    <Compile Include="handler\cartHandler.cs" />
     <Compile Include="handler\transactionHeaderHandler.cs" />
     <Compile Include="handler\transactionReportHandler.cs" />
     <Compile Include="handler\userHandler.cs" />
@@ -161,10 +167,25 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Repository\cardRepository.cs" />
+    <Compile Include="Repository\cartRepository.cs" />
     <Compile Include="Repository\databaseSingleton.cs" />
     <Compile Include="Repository\transactionHeaderRepository.cs" />
     <Compile Include="Repository\transactionReportRepo.cs" />
     <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="View\AddNewCart.aspx.cs">
+      <DependentUpon>AddNewCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\AddNewCart.aspx.designer.cs">
+      <DependentUpon>AddNewCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\BuyCard.aspx.cs">
+      <DependentUpon>BuyCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\BuyCard.aspx.designer.cs">
+      <DependentUpon>BuyCard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\handleTransaction.aspx.cs">
       <DependentUpon>handleTransaction.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +248,13 @@
     </Compile>
     <Compile Include="View\OrderCard.aspx.designer.cs">
       <DependentUpon>OrderCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\registerPage.aspx.cs">
       <DependentUpon>registerPage.aspx</DependentUpon>

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:GridView ID="gv" runat="server" AutoGenerateColumns="False" OnRowDeleting="gv_RowDeleting" OnRowEditing="gv_RowEditing">
+    <asp:GridView ID="gv" runat="server" AutoGenerateColumns="False" OnRowCommand="gv_command" OnSelectedIndexChanged="gv_SelectedIndexChanged">
         <Columns>
             <asp:BoundField DataField="CardID" HeaderText="CardID" SortExpression="CardID" />
             <asp:BoundField DataField="CardName" HeaderText="CardName" SortExpression="CardName" />
@@ -15,6 +15,12 @@
                     <asp:Label ID="lblIsFoil" runat="server"
                         Text='<%# ConvertIsFoil(Eval("isFoil")) %>'>
                     </asp:Label>
+                </ItemTemplate>
+            </asp:TemplateField>
+            <asp:TemplateField HeaderText="Action">
+                <ItemTemplate>
+                    <asp:Button ID="buyBtn" runat="server" CommandName="Buy" Text="Buy" CommandArgument='<%# Container.DataItemIndex %>'/>
+                    <asp:Button ID="cartBtn" runat="server" CommandName="AddToCart" Text="Add To Cart" CommandArgument='<%# Container.DataItemIndex %>'/>
                 </ItemTemplate>
             </asp:TemplateField>
             </Columns>

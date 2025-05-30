@@ -67,7 +67,7 @@
                 <li><asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/View/homeCustomer.aspx">Home</asp:HyperLink></li>
                 <li><asp:HyperLink ID="hlOrderCard" runat="server" NavigateUrl="~/View/OrderCard.aspx">Order Card</asp:HyperLink></li>
                 <li><asp:HyperLink ID="hlHistory" runat="server" NavigateUrl="~/View/history.aspx">History</asp:HyperLink></li>
-                <li><asp:HyperLink ID="hlCart" runat="server" NavigateUrl="~/View/cart.aspx">🛒</asp:HyperLink></li>                
+                <li><asp:HyperLink ID="hlCart" runat="server" NavigateUrl="~/View/AddNewCart.aspx">🛒</asp:HyperLink></li>                
                 <asp:Button ID="logout" runat="server" Text="Logout" OnClick="logout_Click" />
                 <li><asp:HyperLink ID="hlProfile" runat="server" NavigateUrl="~/View/profile.aspx">Profile</asp:HyperLink></li>
             </ul>
