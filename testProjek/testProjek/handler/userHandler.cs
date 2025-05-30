@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text.RegularExpressions;
 using System.Web;
+using System.Xml.Linq;
 using testProjek.Factory;
 using testProjek.Model;
 using testProjek.Repository;
@@ -22,6 +26,12 @@ namespace testProjek.handler
         {
             User user = userFactory.createNewUser(username, password,email,gender,role,date);
             userRepository.insertNewUser(user);
+        }
+
+        public void UpdateUser(int id, string username, string password, string email, string gender, string role, DateTime date)
+        {
+            User user = userFactory.createNewUser(username, password, email, gender, role, date);
+            userRepository.UpdateUser(id, user);
         }
     }
 }

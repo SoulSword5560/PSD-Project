@@ -24,5 +24,23 @@ namespace testProjek.Repository
             return user;
         }
 
+        public void UpdateUser(User user)
+        {
+            using (var db = new databaseEntities1())
+            {
+                var user = db.Users.FirstOrDefault(u => u.UserID == id);
+                if (user != null)
+                {
+                    user.UserName = username;
+                    user.UserPassword = password;
+                    user.UserEmail = email;
+                    user.UserGender = gender;
+                    user.UserRole = role;
+                    user.UserDOB = date;
+
+                    db.SaveChanges();
+                }
+            }
+        }
     }
 }

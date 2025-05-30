@@ -94,5 +94,15 @@ namespace testProjek.Controller
 
             return userHandler.getUser(username, password);
         }
+        public class UserController
+        {
+            public static string UpdateProfile(int userId, string username, string password, string email, string gender, string role, DateTime dob,
+                                               string oldPassword, string newPassword, string confirmPassword)
+            {
+                return userHandler.UpdateUser(userId, username, password, email, gender, role, dob,
+                                              oldPassword, newPassword, confirmPassword);
+            }
+        }
+
     }
 }
