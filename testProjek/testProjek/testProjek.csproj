@@ -97,8 +97,9 @@
       <LastGenOutput>dbModel.cs</LastGenOutput>
     </Content>
     <Content Include="View\AddNewCart.aspx" />
-    <Content Include="View\BuyCard.aspx" />
     <Content Include="View\handleTransaction.aspx" />
+    <Content Include="View\history.aspx" />
+    <Content Include="View\historyDetail.aspx" />
     <Content Include="View\homeAdmin.aspx" />
     <Content Include="View\homeCustomer.aspx" />
     <Content Include="View\insert.aspx" />
@@ -123,6 +124,7 @@
     </Compile>
     <Compile Include="Factory\cardFactory.cs" />
     <Compile Include="Factory\cartFactory.cs" />
+    <Compile Include="Factory\transactionFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
     <Compile Include="handler\cardHandler.cs" />
     <Compile Include="handler\cartHandler.cs" />
@@ -179,19 +181,26 @@
     <Compile Include="View\AddNewCart.aspx.designer.cs">
       <DependentUpon>AddNewCart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\BuyCard.aspx.cs">
-      <DependentUpon>BuyCard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View\BuyCard.aspx.designer.cs">
-      <DependentUpon>BuyCard.aspx</DependentUpon>
-    </Compile>
     <Compile Include="View\handleTransaction.aspx.cs">
       <DependentUpon>handleTransaction.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="View\handleTransaction.aspx.designer.cs">
       <DependentUpon>handleTransaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\history.aspx.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\history.aspx.designer.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\historyDetail.aspx.cs">
+      <DependentUpon>historyDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\historyDetail.aspx.designer.cs">
+      <DependentUpon>historyDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\homeAdmin.aspx.cs">
       <DependentUpon>homeAdmin.aspx</DependentUpon>

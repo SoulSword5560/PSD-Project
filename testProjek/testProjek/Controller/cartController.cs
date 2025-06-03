@@ -18,9 +18,13 @@ namespace testProjek.Controller
             cartHandler.createCart(cardId, Convert.ToInt32(userId), 1);
         }
 
-        public void updateCart()
+        public void updateQuantity(int id, int quantity)
         {
-
+            if (quantity < 0)
+            {
+                return;
+            }
+            cartHandler.updateQuantity(id, quantity);
         }
         public List<Cart> getCarts()
         {
@@ -33,6 +37,10 @@ namespace testProjek.Controller
         public Cart getCartByID(int id)
         {
             return cartHandler.getCartByID(id);
+        }
+        public void deleteAllCart(int userId)
+        {
+            cartHandler.deleteAllCart(userId);
         }
     }
 }

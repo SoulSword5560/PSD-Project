@@ -34,6 +34,7 @@ namespace testProjek.View
             }
             else
             {
+                Session["id"] = user.UserID;
                 Session["user"] = user.UserName;
                 Session["role"] = user.UserRole;
                 if (remember.Checked)

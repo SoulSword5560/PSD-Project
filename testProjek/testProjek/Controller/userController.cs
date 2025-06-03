@@ -94,14 +94,23 @@ namespace testProjek.Controller
 
             return userHandler.getUser(username, password);
         }
-        public class UserController
+
+        public User getUserData(int userid)
         {
-            public static string UpdateProfile(int userId, string username, string password, string email, string gender, string role, DateTime dob,
-                                               string oldPassword, string newPassword, string confirmPassword)
+            return userHandler.getUserData(userid);
+        }
+        public string updateUser(int userid, string username, string email, string password, string conpassword)
+        {            
+            if (password.Length < 8 || !password.Any(char.IsLetter) || !password.Any(char.IsDigit))
             {
-                return userHandler.UpdateUser(userId, username, password, email, gender, role, dob,
-                                              oldPassword, newPassword, confirmPassword);
+                return "password wrong";
             }
+            if (conpassword != password)
+            {
+                return "password not match";
+            }
+            userHandler.UpdateUser(userid, username, email, password);
+            return "";
         }
 
     }

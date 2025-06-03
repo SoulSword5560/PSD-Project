@@ -12,10 +12,12 @@ namespace testProjek.Controller
         transactionHeaderHandler transactionHeaderHandler = new transactionHeaderHandler();
         public List<TransactionHeader> getTransactionHeader()
         {
-
             return transactionHeaderHandler.getTransactionHeader();
         }
-
+        public void addNewTransaction(int userId, DateTime date, List<TransactionDetail> details)
+        {
+            transactionHeaderHandler.createTransaction(userId, date, details);
+        }
         public TransactionHeader getTransactionHeaderById(int id)
         {
             return transactionHeaderHandler.getTransactionHeaderById(id);

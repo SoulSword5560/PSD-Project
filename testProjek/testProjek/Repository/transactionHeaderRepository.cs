@@ -18,6 +18,12 @@ namespace testProjek.Repository
         {
             return db.TransactionHeaders.Find(id);
         }
+
+        public void createTransaction(TransactionHeader transactionHeader)
+        {
+            db.TransactionHeaders.Add(transactionHeader);
+            db.SaveChanges();
+        }
         public void updateTransactionHeader(TransactionHeader transactionHeader)
         {
             TransactionHeader old = db.TransactionHeaders.Find(transactionHeader.TransactionID);

@@ -38,5 +38,23 @@ namespace testProjek.Repository
             });
             return ds;
         }
+
+        public List<Object> getHistoryByUser(int userid)
+        {
+            var history = db.TransactionHeaders.Where(th => th.CustomerID  == userid).
+                SelectMany(th => th.TransactionDetails.Select(td => new
+                {
+                    th.TransactionID,
+                    th.TransactionDate,
+                    th.Status,                                            
+                    td.CardID,
+                    td.Card.CardName,
+                    td.Card.CardPrice,
+                    td.Quantity,
+                    Subtotal = td.Quantity * td.Card.CardPrice
+                    
+                })).ToList<object>();
+            return history;
+        }
     }
 }

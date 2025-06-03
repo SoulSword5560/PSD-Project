@@ -26,6 +26,16 @@ namespace testProjek.Repository
             db.SaveChanges();
         }
 
+        public void deleteAllCart(int userId)
+        {
+            var carts = db.Carts.Where(c => c.UserID == userId).ToList();
+
+            foreach (var cart in carts)
+            {
+                db.Carts.Remove(cart);
+            }
+            db.SaveChanges();
+        }
         public Cart getCart(int id)
         {
             return db.Carts.Find(id);

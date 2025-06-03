@@ -14,5 +14,9 @@ namespace testProjek.handler
         {
             return repo.getData();
         }
+        public List<object> getHistory(int userid)
+        {
+            return repo.getHistoryByUser(userid);
+        }
     }
 }

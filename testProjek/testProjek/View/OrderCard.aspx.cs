@@ -59,7 +59,10 @@ namespace testProjek.View
                 GridViewRow row = gv.Rows[index];
                 if (e.CommandName == "Buy")
                 {
-                    Response.Redirect("~/View/BuyCard.aspx");
+                    int id = Convert.ToInt32(row.Cells[0].Text);
+                    string username = Session["user"].ToString();
+                    cartController.addNewCart(id, username);
+                    Response.Redirect("AddNewCart.aspx");
                 }
                 else if(e.CommandName == "AddToCart")
                 {

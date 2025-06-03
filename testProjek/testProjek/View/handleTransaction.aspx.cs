@@ -29,7 +29,6 @@ namespace testProjek.View
         {
             if (e.CommandName == "Handle")
             {
-                // Fix: Use the CommandArgument property to retrieve the row index
                 int rowIndex = Convert.ToInt32(e.CommandArgument);
                 GridViewRow row = gv.Rows[rowIndex];
                 int id = Convert.ToInt32(row.Cells[0].Text);

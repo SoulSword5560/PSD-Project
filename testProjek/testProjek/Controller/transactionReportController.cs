@@ -14,5 +14,10 @@ namespace testProjek.Controller
         {
             return handler.getData();
         }
+
+        public List<object> getHistoryByUser(int userid)
+        {
+            return handler.getHistory(userid);
+        }
     }
 }

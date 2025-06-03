@@ -27,6 +27,15 @@ namespace testProjek.handler
             cartRepository.deleteCart(id);
         }
 
+        public void deleteAllCart(int userId)
+        {
+            if (userId == 0)
+            {
+                return;
+            }
+            cartRepository.deleteAllCart(userId);
+        }
+
         public Cart getCartByID(int id)
         {
             return cartRepository.getCart(id);

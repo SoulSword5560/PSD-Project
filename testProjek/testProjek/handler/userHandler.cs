@@ -21,6 +21,11 @@ namespace testProjek.handler
         {
             return userRepository.getUser(username, password);
         }
+        
+        public User getUserData(int userid)
+        {
+            return userRepository.getUserData(userid);
+        }
 
         public void registerUser(string username, string password, string email, string gender, string role, DateTime date)
         {
@@ -28,10 +33,9 @@ namespace testProjek.handler
             userRepository.insertNewUser(user);
         }
 
-        public void UpdateUser(int id, string username, string password, string email, string gender, string role, DateTime date)
+       public void UpdateUser(int userid, string username, string email, string password)
         {
-            User user = userFactory.createNewUser(username, password, email, gender, role, date);
-            userRepository.UpdateUser(id, user);
+            userRepository.updateUser(userid, username, email, password);
         }
     }
 }
