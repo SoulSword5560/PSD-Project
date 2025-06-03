@@ -42,6 +42,7 @@ namespace testProjek.View
                     HttpCookie cookie = new HttpCookie("user");
                     cookie["username"] = user.UserName;
                     cookie["role"] = user.UserRole;
+                    cookie["id"] = user.UserID.ToString();
                     cookie.Expires = DateTime.Now.AddDays(1);
                     Response.Cookies.Add(cookie);
                 }

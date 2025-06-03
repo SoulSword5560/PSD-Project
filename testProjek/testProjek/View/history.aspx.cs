@@ -14,9 +14,20 @@ namespace testProjek.View
         transactionReportController controller = new transactionReportController();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["id"] == null)
+            string userIdd;
+            if (Session["id"] != null)
+            {
+                userIdd = Session["id"].ToString();
+            }
+            else
+            {
+                userIdd = Request.Cookies["user"]["id"].ToString();
+            }
+            int userId = Convert.ToInt32(userIdd);
+            if (userId == null)
             {
                 Response.Redirect("~/View/loginPage.aspx");
+                return;
             }
             if (!IsPostBack)
             {
@@ -26,7 +37,16 @@ namespace testProjek.View
 
         public void refreshGrid()
         {
-            int userId = (int)Session["id"];
+            string userIdd;
+            if (Session["id"] != null)
+            {
+                userIdd = Session["id"].ToString();
+            }
+            else
+            {
+                userIdd = Request.Cookies["user"]["id"].ToString();
+            }
+            int userId = Convert.ToInt32(userIdd);
             List<object> list = controller.getHistoryByUser(userId);
             if (list != null && list.Count > 0)
             {

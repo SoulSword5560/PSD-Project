@@ -67,7 +67,15 @@ namespace testProjek.View
                 else if(e.CommandName == "AddToCart")
                 {
                     int id = Convert.ToInt32(row.Cells[0].Text);
-                    string username = Session["user"].ToString();
+                    string username;
+                    if (Session["user"] != null)
+                    {
+                        username = Session["user"].ToString();
+                    }
+                    else
+                    {
+                        username = Request.Cookies["user"]["username"].ToString();
+                    }
                     cartController.addNewCart(id, username);
                     ClientScript.RegisterStartupScript(this.GetType(), "popup", $"alert('Added to cart.');", true);
                 }

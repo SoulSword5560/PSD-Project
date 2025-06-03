@@ -14,11 +14,16 @@ namespace testProjek.View
         transactionReportController controller = new transactionReportController();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["id"] == null)
+            string userIdd;
+            if (Session["id"] != null)
             {
-                Response.Redirect("~/View/loginPage.aspx");
+                userIdd = Session["id"].ToString();
             }
-            int userId = (int)Session["id"];
+            else
+            {
+                userIdd = Request.Cookies["user"]["id"].ToString();
+            }
+            int userId = Convert.ToInt32(userIdd);
             var list = controller.getHistoryByUser(userId);
             if (list != null && list.Count > 0)
             {

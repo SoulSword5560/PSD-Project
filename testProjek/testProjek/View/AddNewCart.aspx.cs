@@ -21,7 +21,16 @@ namespace testProjek.View
 
             if (!IsPostBack)
             {
-                int? userId = Session["id"] as int?;
+                string userIdd;
+                if (Session["id"] != null)
+                {
+                    userIdd = Session["id"].ToString();
+                }
+                else
+                {
+                    userIdd = Request.Cookies["user"]["id"].ToString();
+                }
+                int userId = Convert.ToInt32(userIdd);
                 if (userId == null)
                 {
                     Response.Redirect("~/View/loginPage.aspx");
@@ -105,11 +114,14 @@ namespace testProjek.View
             {
                 int userid = Convert.ToInt32(id);
                 var carts = db.TransactionDetails.Include("Card").Where(c => c.TransactionHeader.CustomerID == userid).ToList();
-                var detail = carts.Select(c => new TransactionDetail
-                {
-                    CardID = c.CardID,
-                    Quantity = c.Quantity
-                }).ToList();
+                var detail = carts
+                 .GroupBy(c => c.CardID)
+                 .Select(g => new TransactionDetail
+                 {
+                     CardID = g.Key,
+                     Quantity = g.Sum(x => x.Quantity)
+                 }).ToList();
+
                 thc.addNewTransaction(Convert.ToInt32(id), DateTime.Now, detail);
                 cartController.deleteAllCart(Convert.ToInt32(id));
                 ClientScript.RegisterStartupScript(this.GetType(), "popup", $"alert('Congrats, you have done do check out.');", true);

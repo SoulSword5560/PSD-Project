@@ -15,13 +15,21 @@ namespace testProjek.View
         userController userController = new userController();
         protected void Page_PreInit(object sender, EventArgs e)
         {
-            if (Session["role"] == null)
+
+            string role;
+            if (Session["role"] != null)
+            {
+                role = Session["role"].ToString();
+            }
+            else
+            {
+                role = Request.Cookies["user"]["role"].ToString();
+            }
+            if (role == null)
             {
                 Response.Redirect("~/View/loginPage.aspx");
                 return;
             }
-
-            string role = Session["role"].ToString();
 
             if (role == "Admin")
             {
@@ -34,14 +42,18 @@ namespace testProjek.View
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["id"] == null)
+            string userIdd;
+            if (Session["id"] != null)
             {
-                Response.Redirect("~/View/loginPage.aspx");
-                return;
+                userIdd = Session["id"].ToString();
             }
+            else
+            {
+                userIdd = Request.Cookies["user"]["id"].ToString();
+            }
+            int UserId = Convert.ToInt32(userIdd);
             if (!IsPostBack)
             {
-                int UserId = (int)Session["id"];
                 User user = userController.getUserData(UserId);
                 if (user != null)
                 {
@@ -55,12 +67,16 @@ namespace testProjek.View
         }
         protected void btnUpdate_Click(object sender, EventArgs e)
         {
-            if (Session["UserID"] == null)
+            string userIdd;
+            if (Session["id"] != null)
             {
-                Response.Redirect("~/View/loginPage.aspx");
-                return;
+                userIdd = Session["id"].ToString();
             }
-            int userId = (int)Session["UserID"];
+            else
+            {
+                userIdd = Request.Cookies["user"]["id"].ToString();
+            }
+            int userId = Convert.ToInt32(userIdd);
             User user = userController.getUserData(userId);
 
             if (user == null)
