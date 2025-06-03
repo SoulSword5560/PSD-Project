@@ -26,6 +26,9 @@
             <asp:CheckBox ID="remember" runat="server" Text="remember me" />
             <br />
             <asp:Button ID="login" runat="server" Text="Login" OnClick="login_Click" />
+            <br /><br />
+            <asp:Label ID="Label1" runat="server" Text="Don't have an account? "></asp:Label>
+            <asp:HyperLink ID="register" runat="server" NavigateUrl="~/View/registerPage.aspx">Register here</asp:HyperLink>
         </div>
     </form>
 </body>
